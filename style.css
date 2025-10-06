@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(image7.jpeg) no-repeat;
+    width: 10%;
+    height: 250vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+    background: rgba(0, 0, 0, 0);
+}
+
+.logo img {
+    float: left;
+    background-size: 20px;
+    position: absolute;
+    left: 120px;
+    position: absolute;
+    top: -5px;
+    width: 180px;
+    height: 20vh;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+    position: absolute;
+    top: 50px;
+    position: absolute;
+    right: 240px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding: 30px 30px;
+}
+
+nav li a:hover {
+    color: red;
+}
+
+.main {
+    position: absolute;
+    top: 100px;
+    position: absolute;
+    left: 60px;
+    color: white;
+    height: 53%;
+    border: 2px solid red;
+    box-shadow: inset;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.main h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    position: absolute;
+    left: 20px;
+}
+
+.main input {
+    width: 400px;
+    height: 45px;
+    color: white;
+    background: rgba(130, 112, 112, 0.3);
+    border: 1px solid red;
+    padding-left: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 90px;
+    position: absolute;
+    left: 20px;
+    cursor: pointer;
+}
+
+.main input:hover {
+    background-color: rgb(228, 212, 212);
+}
+
+.main input::placeholder {
+    color: red;
+    position: absolute;
+    left: 20px;
+    font-family: comic;
+    font-size: 15px;
+}
+
+.main img {
+    position: absolute;
+    top: 6px;
+    position: absolute;
+    left: 485px;
+    border-radius: 20px;
+    width: 57%;
+    height: 97%;
+    opacity: 0.5;
+}
+
+#bu {
+    background: rgba(130, 112, 112, 0.3);
+    border: 1px solid red;
+    font-size: large;
+    float: right;
+    color: red;
+    width: 42px;
+    height: 45px;
+    border-radius: 10px;
+    position: absolute;
+    top: 90px;
+    position: absolute;
+    cursor: pointer;
+    left: 422px;
+}
+
+#bu:hover {
+    background-color: rgb(228, 212, 212);
+}
+
+#bo {
+    position: absolute;
+    left: 1130px;
+    position: absolute;
+    top: 25px;
+    width: 58px;
+    height: 58px;
+    border-radius: 55px;
+    border: 1px solid red;
+    background: rgba(130, 112, 112, 0.3);
+    text-align: center;
+    cursor: pointer;
+}
+
+#bo:hover {
+    background-color: rgb(228, 212, 212);
+}
+
+#po {
+    font-size: 22px;
+    color: red;
+}
+
+#an {
+    position: absolute;
+    top: 280px;
+    position: absolute;
+    left: 80px;
+    border: 1px solid red;
+    width: 200px;
+    color: red;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    background: rgba(130, 112, 112, 0.3);
+    border-radius: 10px;
+}
+
+#an:hover {
+    background-color: rgb(228, 212, 212);
+}
+
+#arr {
+    color: red;
+    font-size: larger;
+}
+
+.go {
+    position: absolute;
+    left: 20px;
+    position: absolute;
+    top: 170px;
+}
+
+#context {
+    width: 380px;
+}
+
+#pa {
+    position: absolute;
+    left: 10px;
+    width: 1150px;
+}
+
+#par {
+    position: absolute;
+    left: 10px;
+    width: 1150px;
+}
+
+#para {
+    position: absolute;
+    left: 10px;
+    width: 1150px;
+}
+
+#parag {
+    position: absolute;
+    left: 10px;
+    width: 1150px;
+}
+
+#te {
+    font-weight: bolder;
+}
+
+.intro {
+    color: white;
+    position: absolute;
+    left: 30px;
+    position: absolute;
+    top: 450px;
+}
+
+.in {
+    color: white;
+    position: absolute;
+    left: 30px;
+    position: absolute;
+    top: 570px;
+}
+
+.int {
+    color: white;
+    position: absolute;
+    left: 30px;
+    position: absolute;
+    top: 670px;
+}
+
+.intr {
+    color: white;
+    position: absolute;
+    left: 30px;
+    position: absolute;
+    top: 770px;
+}
+
+.intr ul {
+    position: absolute;
+    left: 32px;
+    position: absolute;
+    top: 100px;
+}
+
+#id {
+    position: absolute;
+    left: 10px;
+    position: absolute;
+    top: 620px;
+}
+
+#gt {
+    position: absolute;
+    left: 10px;
+    position: absolute;
+    top: 680px;
+}
+
+footer {
+    color: white;
+    position: absolute;
+    left: 30px;
+    position: absolute;
+    top: 1530px;
+}
